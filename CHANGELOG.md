@@ -188,6 +188,8 @@ Thankyou! -->
     1. Added `ancestry` to the `process` object. #1317
     1. Added `internal_name` to the `file` object. #1322
     1. Added `cc_mailboxes`, `from_mailbox`, `to_mailboxes`, `delivered_to_list`  and `reply_to_mailboxes` to `email` object. #1307
+* #### Dictionary Attributes
+    1. Added `ldap` and `ocsf` protocols to `auth_protocol_id` enum. #1324 
 
 ### Bugfixes
 1. Added sibling definition to `confidence_id` in dictionary, accurately associating `confidence` as its sibling. #1180
